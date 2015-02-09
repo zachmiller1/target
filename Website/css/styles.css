@@ -1,3 +1,285 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
 
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Box Sizing */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* =====================
+		Variables
+======================== */
+/* =====================
+		Framework
+======================== */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333; }
+
+section, footer, header {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  padding: 20px 10px; }
+
+.container {
+  width: 50%;
+  text-align: center; }
+
+.hidden {
+  position: absolute;
+  left: -9999px; }
+
+.clear {
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+p {
+  font-size: 0.75em;
+  line-height: 1.5; }
+
+a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none; }
+
+h1 {
+  font-weight: bold;
+  font-size: 1.125em;
+  text-align: center; }
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 30px; }
+
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 1.3; }
+
+.red {
+  color: #E51836; }
+
+.black {
+  color: #333;
+  font-weight: bold;
+  font-style: italic; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.button {
+  font-size: 0.625em;
+  font-weight: normal;
+  color: #E51836;
+  padding: 6px 15px;
+  border: 1px solid #E51836;
+  border-radius: 25px;
+  display: inline-block;
+  margin: 10px 0 0; }
+  .button:hover {
+    color: #cc0000;
+    border-color: #cc0000; }
+
+.price {
+  font-weight: bold; }
+
+.numberRatings {
+  font-weight: bold; }
+
+/* ======================
+	  Header Styles
+========================= */
+.mainHeader {
+  display: none; }
+
+.headerPlaceholder {
+  background: url("../images/mobile-header.jpg") no-repeat;
+  width: 322px;
+  height: 51px;
+  margin: 0 auto;
+  border-bottom: 1px solid #eee; }
+
+/* ===========================
+	Free Shipping Sub Header
+============================== */
+.freeShipping {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.875em; }
+  .freeShipping a {
+    font-size: 0.75em; }
+
+/* =====================
+		Framework
+======================== */
+.sideNav {
+  display: none; }
+
+/* =====================
+		Exclusive
+======================== */
+.exclusive {
+  text-align: center;
+  padding-bottom: 0; }
+  .exclusive p {
+    color: #666;
+    font-weight: bold;
+    font-size: 0.75em;
+    line-height: 1;
+    margin-bottom: 10px; }
+  .exclusive h3 {
+    font-size: 1.125em;
+    margin-bottom: 3px; }
+  .exclusive a {
+    font-size: 0.625em;
+    display: block;
+    margin-bottom: 2px; }
+  .exclusive .button {
+    display: inline-block; }
+  .exclusive .container {
+    margin-bottom: 20px; }
+
+/* =====================
+		Trending
+======================== */
+.trending {
+  text-align: center; }
+  .trending .imageContainer {
+    width: 70%;
+    height: 85px;
+    margin: 0 auto 10px; }
+    .trending .imageContainer img {
+      width: 100%;
+      text-align: center; }
+  .trending .container {
+    margin-bottom: 20px; }
+  .trending a {
+    color: #0666ff;
+    font-size: 0.75em; }
+  .trending .buttonContainer a {
+    text-align: center;
+    color: #E51836;
+    font-size: 0.625em; }
+
+/* =====================
+		Deals
+======================== */
+.deals .bigDeal {
+  position: relative; }
+  .deals .bigDeal p {
+    font-size: 0.75em;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 15px; }
+.deals .small {
+  width: 50%;
+  position: absolute;
+  right: 0; }
+.deals .large {
+  width: 64%; }
+.deals .imageContainer {
+  width: 85%;
+  margin: 0 auto 10px; }
+  .deals .imageContainer img {
+    width: 100%;
+    text-align: center; }
+.deals .subCategories {
+  width: 87%;
+  margin: 10px auto;
+  text-align: left; }
+  .deals .subCategories a {
+    font-size: 0.75em;
+    display: block;
+    margin-bottom: 5px; }
+.deals .buttonContainer {
+  text-align: center; }
+
+/* =====================
+		Small Deals
+======================== */
+.smallDeal {
+  text-align: center;
+  padding: 20px 20px;
+  border-bottom: 1px solid #eee; }
+  .smallDeal a {
+    font-size: 0.825em; }
+
+/* =====================
+		Popular
+======================== */
+.topProducts {
+  text-align: center; }
+  .topProducts .imageContainer {
+    width: 75%;
+    margin: 0 auto 10px;
+    height: 85px; }
+    .topProducts .imageContainer img {
+      width: 100%;
+      text-align: center; }
+  .topProducts .imageContainer.fitbit {
+    width: 30%; }
+  .topProducts .container {
+    margin-bottom: 20px; }
+  .topProducts .product {
+    color: #0666ff;
+    font-size: 0.75em; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,33 @@
+/* =====================
+		Popular
+======================== */
+
+.topProducts {
+	text-align: center;
+
+	.imageContainer {
+		width: 75%;
+		margin: 0 auto 10px;
+		height: 85px;
+		img {
+			width: 100%;
+			text-align: center;
+		}
+	}
+
+	.imageContainer.fitbit {
+		width: 30%;
+	}
+
+	.container {
+		margin-bottom: 20px;
+	}
+
+	.product {
+		color: #0666ff;
+		font-size: 0.75em;
+	}
+
+
+
+}

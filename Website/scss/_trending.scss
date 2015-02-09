@@ -1,0 +1,34 @@
+/* =====================
+		Trending
+======================== */
+
+.trending {
+	text-align: center;
+
+	.imageContainer {
+		width: 70%;
+		height: 85px;
+		margin: 0 auto 10px;
+
+		img {
+			width: 100%;
+			text-align: center;
+		}
+	}
+
+	.container {
+		margin-bottom: 20px;
+	}
+
+	a {
+		color: #0666ff;
+		font-size: 0.75em;
+	}
+
+	.buttonContainer a {
+		text-align: center;
+		color: $targetRed;
+		font-size: 0.625em;
+	}
+
+}

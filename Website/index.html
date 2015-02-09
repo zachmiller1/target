@@ -82,6 +82,19 @@
 
 
 
+
+        <!-- ========================
+                Free Shipping
+        ============================= -->
+
+        <section class="freeShipping">
+            <p><span class="red">free shipping</span> on orders of $50+ &amp; free returns on everything.</p>
+            <a href="#">view details</a>
+        </section><!-- end freeShipping -->
+
+
+
+
         <!-- ========================
                 Page Title
         ============================= -->
@@ -156,16 +169,16 @@
                 Exclusive Product
         ============================= -->
 
-        <section class="exclusive">
-            <div class="container">
-                <h2>Orla Kiely</h2>
-                <p class="subText">Exclusive new designs for Target.</p>
+        <section class="exclusive clearfix">
+            <div class="container left">
+                <h3>Orla Kiely</h3>
+                <p class="subText">exclusive new designs for Target.</p>
                 <a href="#">Yoga mats &amp; accessories</a>
                 <a href="#">Water bottles</a>
                 <a href="#">Luggage &amp; Travel</a>
                 <a href="#" class="button">Shop Now</a>
              </div><!-- end container -->
-            <img src="#" alt="Orla Kiely yoga mats, water bottles, and bag.">
+            <img src="images/bag.jpg" alt="Orla Kiely yoga mats, water bottles, and bag." class="container right">
         </section><!-- end exclusive -->
 
 
@@ -182,16 +195,18 @@
                 Trending Now
         ============================= -->
 
-        <section class="trending">
+        <section class="trending clearfix">
             <h2>Trending Now</h2>
             <i class="arrow"></i>
             <i class="arrow"></i>
 
             <!-- Item 1 -->
-            <div class="container">
-                <img src="#" alt="Treadmill">
+            <div class="container left">
+                <div class="imageContainer">
+                    <img src="images/treadmill.png" alt="Treadmill">
+                </div><!-- end imageContainer -->
                 <p class="price">$849.99</p>
-                <p class="product">ProForm Power 995i Treadmill</p>
+                <a href="#" class="product">ProForm Power 995i Treadmill</a>
                 <div class="rating">
                     <i class="star"></i>
                     <i class="star"></i>
@@ -203,10 +218,12 @@
             </div><!-- end container -->
 
             <!-- Item 2 -->
-            <div class="container">
-                <img src="#" alt="Hand Weight">
+            <div class="container left">
+                <div class="imageContainer">
+                    <img src="images/dumbbell.png" alt="Hand Weight">
+                </div><!-- end imageContainer -->
                 <p class="price">$15.99</p>
-                <p class="product">c9 Neoprene - Hand Weight</p>
+                <a href="#" class="product">c9 Neoprene - Hand Weight</a>
                 <div class="rating">
                     <i class="star"></i>
                     <i class="star"></i>
@@ -217,8 +234,10 @@
                 </div><!-- end rating -->
             </div><!-- end container -->
 
-            <!-- Button -->
-            <a href="#" class="button">View All Trending</a>
+            <div class="buttonContainer">
+                <!-- Button -->
+                <a href="#" class="button clear">View All Trending</a>
+            </div><!-- buttonContainer -->
 
         </section><!-- end trending -->
 
@@ -232,38 +251,60 @@
         <section class="deals">
 
             <!-- Big Deal -->
-            <div class="bigDeal">
-                <div class="container">
-                    <h3><span class="red">Up to 30% off</span>&amp; free shipping on cardio exercise equipment.*</h3>
-                    <p>Keep your home gym running.</p>
-                    <div class="subCategories">
+            <div class="bigDeal clearfix">
+
+                <!-- Deal Text -->        
+                <div class="container large left">
+                    <h3><span class="red">Up to 30% off</span> &amp; free shipping on cardio exercise equipment.*</h3>
+                    <p>keep your home gym running.</p>
+
+                    <!-- Sub Categories -->
+                    <div class="subCategories clear">
                         <a href="#">Treadmills</a>
                         <a href="#">Ellipticals</a>
-                        <a href="#">Exercise Bikes</a>
-                        <a href="#">Rowing Machines</a>
+                        <a href="#">Exercise bikes</a>
+                        <a href="#">Rowing machines</a>
                         <a href="#">All cardio equipment</a>
                     </div><!-- end subCategories -->
                 </div><!-- end container -->
+                
+                <!-- Image Container -->
+                <div class="container small left">
+                    <div class="imageContainer">
+                        <img src="images/treadmill-walking.png" alt="Woman walking on a treadmill">
+                    </div><!-- end imageContainer -->
+                </div><!-- end container -->
+
             </div><!-- end bigDeal -->
 
-            <!-- Small Deal -->
-            <div class="smallDeal">
-                <i class="pricetag"></i>
-                <p><span class="red">up to 30% off</span>&amp; free shipping on cardio equipment.* Save on treadmill &amp; more.</p>
-                <a href="#" class="shopNow">shop now</a>
-            </div><!-- end smallDeal -->
-
-            <!-- Small Deal -->
-            <div class="smallDeal">
-                <i class="pricetag"></i>
-                <p><span class="red">up to 40% off</span>sports &amp; outdoor items.* Get out with our clearance.</p>
-                <a href="#" class="shopNow">shop now</a>
-            </div><!-- end smallDeal -->
-
-            <!-- Button -->
-            <a href="#" class="button">All Exercise Deals</a>
+            <div class="buttonContainer">
+                <!-- Button -->
+                <a href="#" class="button clear">All Exercise Deals</a>
+            </div><!-- end buttonContainer -->
 
         </section><!-- end deals -->
+
+
+
+
+        <!-- ========================
+                Small Deals
+        ============================= -->
+
+            <!-- Small Deal -->
+            <div class="smallDeal">
+                <i class="pricetag"></i>
+                <p><span class="red">up to 30% off</span> &amp; free shipping on cardio equipment.* Save on treadmill &amp; more.</p>
+                <a href="#" class="shopNow">shop now</a>
+            </div><!-- end smallDeal -->
+
+            <!-- Small Deal -->
+            <div class="smallDeal">
+                <i class="pricetag"></i>
+                <p><span class="red">up to 40% off</span> sports &amp; outdoor items.*</p> 
+                <p>Get out with our clearance.</p>
+                <a href="#" class="shopNow">shop now</a>
+            </div><!-- end smallDeal -->
 
 
 
@@ -272,16 +313,18 @@
                 Top Products
         ============================= -->
 
-        <section class="topProducts">
+        <section class="topProducts clearfix">
             <h2>Top Products in Sports &amp; Outdoors</h2>
             <i class="arrow"></i>
             <i class="arrow"></i>
 
             <!-- Item 1 -->
-            <div class="container">
-                <img src="#" alt="Fitbit band">
+            <div class="container left">
+                <div class="imageContainer fitbit">
+                    <img src="images/fitbit.png" alt="Fitbit band">
+                </div><!-- end imageContainer -->
                 <p class="price">$129.99</p>
-                <p class="product">Fitbit Charge Wireless Activ...</p>
+                <a href="#" class="product">Fitbit Charge Wireless Activ...</a>
                 <div class="rating">
                     <i class="star"></i>
                     <i class="star"></i>
@@ -293,10 +336,12 @@
             </div><!-- end container -->
 
             <!-- Item 2 -->
-            <div class="container">
-                <img src="#" alt="Airbed">
+            <div class="container left">
+                <div class="imageContainer">
+                    <img src="images/airbed.png" alt="Airbed">
+                </div><!-- end imageContainer -->
                 <p class="price">$49.99</p>
-                <p class="product">Coleman® ComfortSmart™...</p>
+                <a href="#" class="product">Coleman® ComfortSmart™...</a>
                 <div class="rating">
                     <i class="star"></i>
                     <i class="star"></i>
@@ -452,17 +497,17 @@
         <section class="seo">
             <h2>Hearing the call of the outdoors?</h2>
 
-            <p><span class="black">Target lets you embrace</span>your adventurous spirit with our collection of sports and outdoor equipment including camping, hiking and backpacking gear. Our <a href="#">tents</a> and camping gear are a nature lover’s delight. But if you want to do more than walking, running or hiking, we have you covered with the latest sports equipment.</p>
+            <p><span class="black">Target lets you embrace</span> your adventurous spirit with our collection of sports and outdoor equipment including camping, hiking and backpacking gear. Our <a href="#">tents</a> and camping gear are a nature lover’s delight. But if you want to do more than walking, running or hiking, we have you covered with the latest sports equipment.</p>
 
-            <p><span class="black">Bikes are one of our hottest items.</span>Conquer any terrain with our <a href="#">mountain bikes</a>, <a href="#">road bikes</a> or <a href="#">bmx bikes</a>. If exploring the wilderness or hosting parties is your hobby, our canopy sets are the perfect shelter from the elements.</p>
+            <p><span class="black">Bikes are one of our hottest items.</span> Conquer any terrain with our <a href="#">mountain bikes</a>, <a href="#">road bikes</a> or <a href="#">bmx bikes</a>. If exploring the wilderness or hosting parties is your hobby, our canopy sets are the perfect shelter from the elements.</p>
 
-            <p><span class="black">At Target, our state-of-the-art</span><a href="#">golf clubs</a>and accessories will help you bring your A-game.</p>
+            <p><span class="black">At Target, our state-of-the-art</span> <a href="#">golf clubs</a> and accessories will help you bring your A-game.</p>
 
-            <p><span class="black">Encourage your children to enjoy</span>some active playtime with <a href="#">scooters</a>, <a href="#">trampolines</a>, <a href="#">skateboards</a>, <a href="#">skates</a>, <a href="#">go-karts</a> and more. Our helmets and pads will keep you and your little ones protected while you have fun.</p>
+            <p><span class="black">Encourage your children to enjoy</span> some active playtime with <a href="#">scooters</a>, <a href="#">trampolines</a>, <a href="#">skateboards</a>, <a href="#">skates</a>, <a href="#">go-karts</a> and more. Our helmets and pads will keep you and your little ones protected while you have fun.</p>
 
-            <p><span class="black">After a long day of enjoying</span>the outdoors, cool off in our outdoor swimming pools. Inflatable <a href="#">kiddie pools</a>, <a href="#">water slides</a> and pool toys are also popular. Don’t forget <a href="#">tubes</a> and chaise lounges for a relaxing float.</p>
+            <p><span class="black">After a long day of enjoying</span> the outdoors, cool off in our outdoor swimming pools. Inflatable <a href="#">kiddie pools</a>, <a href="#">water slides</a> and pool toys are also popular. Don’t forget <a href="#">tubes</a> and chaise lounges for a relaxing float.</p>
 
-            <p><span class="black">Whether you enjoy the thrill</span>of an adventure or just the fresh air and sunshine, it’s important to stay in shape. When the weather is being less than cooperative, we offer <a href="#">treadmills</a>, <a href="#">exercise bikes</a>, <a href="#">ellipticals</a>, weight-training accessories and much more. You have plenty of opportunities to enjoy indoor and outdoor sports with the vast selection at Target. So, stay active!</p>
+            <p><span class="black">Whether you enjoy the thrill</span> of an adventure or just the fresh air and sunshine, it’s important to stay in shape. When the weather is being less than cooperative, we offer <a href="#">treadmills</a>, <a href="#">exercise bikes</a>, <a href="#">ellipticals</a>, weight-training accessories and much more. You have plenty of opportunities to enjoy indoor and outdoor sports with the vast selection at Target. So, stay active!</p>
         </section><!-- end seo -->
 
 

@@ -1,0 +1,53 @@
+/* =====================
+		Deals
+======================== */
+
+.deals {
+
+	.bigDeal {
+		position: relative;
+
+		p {
+			font-size: 0.75em;
+			font-weight: bold;
+			line-height: 1;
+			margin-bottom: 15px;
+		}
+	}
+
+	.small {
+		width: 50%;
+		position: absolute;
+		right: 0;
+	}
+
+	.large {
+		width: 64%;
+	}
+
+	.imageContainer {
+		width: 85%;
+		margin: 0 auto 10px;
+
+		img {
+			width: 100%;
+			text-align: center;
+		}
+	}
+
+	.subCategories {
+		width: 87%;
+		margin: 10px auto;
+		text-align: left;
+		a {
+			font-size: 0.75em;
+			display: block;
+			margin-bottom: 5px;
+		}
+	}
+
+	.buttonContainer {
+		text-align: center;
+	}
+
+}

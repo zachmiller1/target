@@ -1,0 +1,37 @@
+/* =====================
+		Exclusive
+======================== */
+
+.exclusive {
+	text-align: center;
+	padding-bottom: 0;
+
+	p {
+		color: #666;
+		font-weight: bold;
+		font-size: 0.75em;
+		line-height: 1;
+		margin-bottom: 10px;
+	}
+
+	h3 {
+		font-size: 1.125em;
+		margin-bottom: 3px;
+	}
+
+	a {
+		font-size: 0.625em;
+		display: block;
+		margin-bottom: 2px;
+	}
+
+	.button {
+		display: inline-block;
+	}
+
+	.container {
+		margin-bottom: 20px;
+	}
+
+
+}
