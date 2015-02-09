@@ -1,0 +1,134 @@
+/* =====================
+		Framework
+======================== */
+
+footer {
+	padding: 0;
+}
+
+.footerBody {
+
+	padding: 0 20px 20px;
+
+	.container {
+		padding: 20px;
+		text-align: left;
+	}
+
+	h4 {
+		font-weight: bold;
+		font-size: 0.875em;
+		margin-bottom: 20px;
+	}
+
+	a {
+		font-size: 0.75em;
+		font-weight: normal;
+		line-height: 1.5;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.redCard {
+		text-align: center;
+		background: #ccc;
+		margin: 0 auto;
+		width: 100%;
+		padding: 20px 0;
+
+		a {
+			display: block;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		img {
+			width: 20%;
+			margin: 10px 0;
+		}
+	}
+}
+
+
+.footerBottom {
+
+	padding: 20px 20px 10px;
+
+	.footerNav, .social {
+		li {
+			display: inline;
+		}
+
+		a {
+			display: inline-block;
+		}
+	}
+
+	.footerNav {
+		a {
+			font-size: .75em;
+			padding-right: 8px;
+			margin-bottom: 5px;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.social a {
+		display: inline-block;
+		margin-right: 23px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	.social div {
+		background: transparent url('../images/target-social-media.png') no-repeat left center;
+		height: 24px;
+		width: 24px;
+		background-size: 24px;
+		margin-bottom: 10px;
+	}
+
+	div.cartwheel {
+		background-position: 0 0;
+	}
+
+	div.facebook {
+		background-position: 0 -58px;
+	}
+
+	div.pinterest {
+		background-position: 0 -174px;
+	}
+
+	div.instagram {
+		background-position: 0 -116px;
+	}
+
+	div.youtube {
+		background-position: 0 -290px;
+	}
+
+	div.twitter {
+		background-position: 0 -232px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

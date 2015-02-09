@@ -5,6 +5,7 @@
 body {
 	font-family: $font;
 	color: #333;
+	text-align: center;
 }
 
 section, footer, header {
@@ -58,6 +59,7 @@ h1 {
 }
 
 h2 {
+	text-align: center;
 	font-weight: bold;
 	margin-bottom: 30px;
 }
@@ -81,6 +83,10 @@ h4 {
 	color: #333;
 	font-weight: bold;
 	font-style: italic;
+}
+
+.grey {
+	color: #eee;
 }
 
 .left {

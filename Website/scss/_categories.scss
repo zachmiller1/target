@@ -1,0 +1,73 @@
+/* =====================
+		Categories
+======================== */
+
+.categories {
+
+	padding: 20px 0;
+
+	.imageContainer {
+			width: 100%;
+			height: 200px;
+			margin: 0 auto 10px;
+			padding: 20px;
+
+			img {
+				width: 100%;
+				text-align: center;
+				margin: 20px 0;
+			}
+		}
+
+	.container {
+		height: 450px;
+		border: 1px solid #eee;
+
+		&:last-child {
+			margin-bottom: 10px;
+		}
+	}
+
+	.buttonContainer {
+		text-align: center;
+		display: block;
+	}
+
+	.extra a {
+		font-size: 0.75em;
+		display: block;
+		line-height: 1.3;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.subCategories {
+		font-size: 0.75em;
+		margin-bottom: 30px;
+
+		a {
+			display: block;
+			margin-bottom: 5px;
+			font-weight: normal;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	h3 {
+		background: $targetRed;
+		color: #fff;
+		font-size: .825em;
+		font-weight: bold;
+		padding: 5px 0;
+	}
+
+	.button {
+		margin-top: 20px;
+	}
+
+}

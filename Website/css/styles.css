@@ -59,7 +59,8 @@ table {
 ======================== */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333; }
+  color: #333;
+  text-align: center; }
 
 section, footer, header {
   width: 100%;
@@ -102,6 +103,7 @@ h1 {
   text-align: center; }
 
 h2 {
+  text-align: center;
   font-weight: bold;
   margin-bottom: 30px; }
 
@@ -118,6 +120,9 @@ h3 {
   color: #333;
   font-weight: bold;
   font-style: italic; }
+
+.grey {
+  color: #eee; }
 
 .left {
   float: left; }
@@ -260,7 +265,7 @@ h3 {
   padding: 20px 20px;
   border-bottom: 1px solid #eee; }
   .smallDeal a {
-    font-size: 0.825em; }
+    font-size: 0.75em; }
 
 /* =====================
 		Popular
@@ -275,11 +280,149 @@ h3 {
       width: 100%;
       text-align: center; }
   .topProducts .imageContainer.fitbit {
-    width: 30%; }
+    width: 36%; }
   .topProducts .container {
     margin-bottom: 20px; }
   .topProducts .product {
     color: #0666ff;
     font-size: 0.75em; }
+
+/* =====================
+		Categories
+======================== */
+.categories {
+  padding: 20px 0; }
+  .categories .imageContainer {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto 10px;
+    padding: 20px; }
+    .categories .imageContainer img {
+      width: 100%;
+      text-align: center;
+      margin: 20px 0; }
+  .categories .container {
+    height: 450px;
+    border: 1px solid #eee; }
+    .categories .container:last-child {
+      margin-bottom: 10px; }
+  .categories .buttonContainer {
+    text-align: center;
+    display: block; }
+  .categories .extra a {
+    font-size: 0.75em;
+    display: block;
+    line-height: 1.3; }
+    .categories .extra a:hover {
+      text-decoration: underline; }
+  .categories .subCategories {
+    font-size: 0.75em;
+    margin-bottom: 30px; }
+    .categories .subCategories a {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: normal; }
+      .categories .subCategories a:hover {
+        text-decoration: underline; }
+  .categories h3 {
+    background: #E51836;
+    color: #fff;
+    font-size: .825em;
+    font-weight: bold;
+    padding: 5px 0; }
+  .categories .button {
+    margin-top: 20px; }
+
+/* =====================
+		SEO
+======================== */
+.seo {
+  border-bottom: none; }
+  .seo p {
+    text-align: left;
+    padding: 0 15px;
+    margin-bottom: 20px; }
+    .seo p:last-child {
+      margin-bottom: 0; }
+
+/* =====================
+		Details
+======================== */
+section.details {
+  border: 1px dotted #eee;
+  border-left: none;
+  border-right: none;
+  padding: 10px 20px; }
+
+/* =====================
+		Framework
+======================== */
+footer {
+  padding: 0; }
+
+.footerBody {
+  padding: 0 20px 20px; }
+  .footerBody .container {
+    padding: 20px;
+    text-align: left; }
+  .footerBody h4 {
+    font-weight: bold;
+    font-size: 0.875em;
+    margin-bottom: 20px; }
+  .footerBody a {
+    font-size: 0.75em;
+    font-weight: normal;
+    line-height: 1.5; }
+    .footerBody a:hover {
+      text-decoration: underline; }
+  .footerBody .redCard {
+    text-align: center;
+    background: #ccc;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px 0; }
+    .footerBody .redCard a {
+      display: block; }
+      .footerBody .redCard a:hover {
+        text-decoration: underline; }
+    .footerBody .redCard img {
+      width: 20%;
+      margin: 10px 0; }
+
+.footerBottom {
+  padding: 20px 20px 10px; }
+  .footerBottom .footerNav li, .footerBottom .social li {
+    display: inline; }
+  .footerBottom .footerNav a, .footerBottom .social a {
+    display: inline-block; }
+  .footerBottom .footerNav a {
+    font-size: .75em;
+    padding-right: 8px;
+    margin-bottom: 5px; }
+    .footerBottom .footerNav a:hover {
+      text-decoration: underline; }
+  .footerBottom .social a {
+    display: inline-block;
+    margin-right: 23px; }
+    .footerBottom .social a:last-child {
+      margin-right: 0; }
+  .footerBottom .social div {
+    background: transparent url("../images/target-social-media.png") no-repeat left center;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    margin-bottom: 10px; }
+  .footerBottom div.cartwheel {
+    background-position: 0 0; }
+  .footerBottom div.facebook {
+    background-position: 0 -58px; }
+  .footerBottom div.pinterest {
+    background-position: 0 -174px; }
+  .footerBottom div.instagram {
+    background-position: 0 -116px; }
+  .footerBottom div.youtube {
+    background-position: 0 -290px; }
+  .footerBottom div.twitter {
+    background-position: 0 -232px; }
 
 /*# sourceMappingURL=styles.css.map */
